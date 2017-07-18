@@ -4,3 +4,6 @@
 #main-panel #build-pipeline-plugin-content { border-radius: 0; background-color: transparent; }
 #main-panel .build-card { border-radius: 0; border-spacing: 0; }
 #main-panel .build-card .header { border-radius: 0; }
+#main-panel .build-card .build-body { height: initial; }
+#main-panel .build-card .build-body .build-time { float: left; }
+#main-panel .build-card .build-body .build-duration-container { float: right; }
