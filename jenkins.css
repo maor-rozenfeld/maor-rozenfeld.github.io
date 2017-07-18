@@ -1,6 +1,6 @@
 #page-body { background-color: #EEE; }
 #page-body #main-panel { margin-left: 0; }
-#main-panel tbody.pipelineGroup { background-color: transparent; border: 1px solid #CCC; }
+#main-panel tbody.pipelineGroup { background-color: transparent; border-bottom: 1px solid #CCC; }
 #main-panel #build-pipeline-plugin-content { border-radius: 0; background-color: transparent; }
 #main-panel .build-card { border-radius: 0; border-spacing: 0; }
 #main-panel .build-card .header { border-radius: 0; }
