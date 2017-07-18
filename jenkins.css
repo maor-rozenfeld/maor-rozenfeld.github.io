@@ -1,10 +1,12 @@
 #page-body { background-color: #EEE; }
 #page-body #main-panel { margin-left: 0; }
-#main-panel tbody.pipelineGroup { background-color: transparent; border-bottom: 1px solid #CCC; }
+#main-panel tbody.pipelineGroup {background-color: transparent;border-bottom: 1px solid #CCC; }
 #main-panel #build-pipeline-plugin-content { border-radius: 0; background-color: transparent; }
-#main-panel .build-card { border-radius: 0; border-spacing: 0; }
-#main-panel .build-card .header { border-radius: 0; }
+#main-panel .build-card { border-radius: 0;border-spacing: 0; position: relative; }
+#main-panel .build-card .header {border-radius: 0; text-align: left; font-size: 11px;}
 
 #main-panel .build-card .build-body { height: initial; }
 #main-panel .build-card .build-body .build-time { float: left; }
 #main-panel .build-card .build-body .build-duration-container { float: right; width: initial; margin-right: 10px;}
+
+#main-panel .build-card .icons { float: none; position: absolute; top: 3px; right: 4px; }
