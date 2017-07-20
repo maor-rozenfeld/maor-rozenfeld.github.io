@@ -5,6 +5,12 @@
 #main-panel .build-card { border-radius: 0;border-spacing: 0; position: relative; }
 #main-panel .build-card .header {border-radius: 0; text-align: left; font-size: 11px;}
 
+#main-panel .build-parameters { background-color: #D5DEDE; }
+#main-panel .build-parameters .param-name { display: none; }
+#main-panel .build-parameters .param-value { text-align: center; }
+#main-panel .build-parameters tr:nth-child(1) .param-value { font-size: 15px; font-weight: bold; }
+#main-panel .build-parameters tr:nth-child(2) .param-value { font-size: 10px; }
+
 #main-panel .build-card .build-body { height: initial; }
 #main-panel .build-card .build-body .build-time { float: left; }
 #main-panel .build-card .build-body .build-duration-container { float: right; width: initial; margin-right: 10px;}
