@@ -1,4 +1,4 @@
-#page-body { background-color: #EEE; transform: rotate(-0.1deg);  }
+#page-body { background-color: #EEE; transform: rotate(-0.3deg);  }
 #page-body #main-panel { margin-left: 0; }
 #main-panel tbody.pipelineGroup {background-color: transparent;border-bottom: 1px solid #CCC; }
 #main-panel #build-pipeline-plugin-content { border-radius: 0; background-color: transparent; }
